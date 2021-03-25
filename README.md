@@ -5,8 +5,6 @@ You can see the changes by comparing the git commits. You can see a Github compa
 Here is the script that was used to create it:
 
 ```
-#!/usr/bin/env ruby
- 
 set -x
  
 \curl -sSL https://get.rvm.io | bash
