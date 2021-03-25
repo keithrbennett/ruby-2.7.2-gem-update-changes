@@ -27,6 +27,8 @@ gem -v > gem-version-after-gem-update
 
 git add .
 git commit -m 'Ran gem update --system'
-
 ```
 
+I use rvm for my Ruby management, so before I ran the script, I moved my .rvm directory out of the way:
+
+`mv ~/.rvm ~/.rvm-sav`
